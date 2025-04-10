@@ -18,15 +18,15 @@ class Item{
 		
 		string getNome();
 		char getTipo();
-		bool isCombate();
-		int faBonus();
-		int danoBonus();
+		bool getIsCombate();
+		int getFaBonus();
+		int getDanoBonus();
 
 		void setNome(string nome);
 		void setTipo(char tipo);
 		void setIsCombate(bool isCombate);
-		void faBonus(int faBonus);
-		void danoBonus(int danoBonus);
+		void setFaBonus(int faBonus);
+		void setDanoBonus(int danoBonus);
 
 };
 
